@@ -34,16 +34,13 @@ HEADER
 nav {
     max-height: 40px;
     padding: 5px 0 10px;
-    margin: 0;
+    margin-bottom: 10px;
 }
 nav ul {
     margin: -20px 2% 0 0;
     text-align: right;
 }
-nav ul li {
-    margin: 0 10px 0;
-    display:inline;
-}
+
 
 nav h2 {
     left: 3em;
@@ -57,6 +54,31 @@ nav h2 {
     nav h2:hover {
         text-decoration: underline;
     }
+nav ul li {
+    margin-left: -5px;
+    display:inline;
+    padding: 1px 10px 1px 10px;
+    font-weight: 700;
+    transition: 0.8s;
+}
+
+    nav ul li:hover {
+        margin-left: -5px;
+        display:inline;
+        padding-left: 10px;
+        background-color: black;
+        padding: 70px 10px 13px 10px;
+        margin: 0;
+        color: orange;
+/*        text-decoration: underline;*/
+    }
+
+#selected {
+    background-color: black;
+    padding: 70px 10px 13px 10px;
+    margin: 0;
+    color: orange;
+}
 
 /******************************************************************
 SECTION-1: BANNER
