@@ -43,9 +43,12 @@ nav ul {
 
 
 nav h2 {
+    color: #fff;
     left: 3em;
     height: inherit;
     text-align: left;
+    font-size: 1.0em;
+    width: 200px;
     padding: 0;
     margin: 20px 0 0 5%;
     transition: 1s;
@@ -54,68 +57,91 @@ nav h2 {
     nav h2:hover {
         text-decoration: underline;
     }
+
 nav ul li {
+    color: #fff;
     margin-left: -5px;
     display:inline;
     padding: 1px 10px 1px 10px;
     font-weight: 700;
+    font-size: 0.8em;
     transition: 0.8s;
 }
 
     nav ul li:hover {
+/*
         margin-left: -5px;
         display:inline;
         padding-left: 10px;
         background-color: black;
-        padding: 70px 10px 13px 10px;
+        padding: 70px 10px 12px 10px;
+        border-radius: 10px;
         margin: 0;
+*/
         color: orange;
 /*        text-decoration: underline;*/
     }
 
 #selected {
-    background-color: black;
-    padding: 70px 10px 13px 10px;
+/*    background-color: black;*/
+    padding: 70px 10px 12px 10px;
+    border-radius: 20px;
     margin: 0;
     color: orange;
 }
 
+#register-nav {
+    background-color: darkslateblue;
+    padding: 70px 10px 12px 10px;
+    border-radius: 20px;
+    margin: 0;
+    color: white;
+}
+    #register-nav:hover {
+        text-decoration: underline;
+    }
+
 /******************************************************************
 SECTION-1: BANNER
 ******************************************************************/
-#banner {
-    background-image: url(../img/photos/background-2.jpg);
+#banner-home {
+    background-image: url(../img/photos/background-2.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
     width: 100%;
-    height: 300px;
+    height: 640px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
-#banner h2 {
-    font-size: 2.6em;
-    font-weight: bolder;
-    color: black;
-    margin: 120px 0 0;
+.middle-baby {
+    font-size: 3.5em;
+    font-weight: normal;
+    color: white;
+    margin: 155px 0 0;
+    font-family: Hind, sans-serif;
+    font-weight: 300;
 }
 
 .button {
+    font-weight: 700;
     color: white;
-    background-color: cornflowerblue;
-    border: solid 0px #000;
+    background-color: transparent;
+    border: solid 3px #fff;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
     font-size: 1.0em;
     padding: 10px 30px 10px;
-    margin: 10px 0 0 22%;
-    transition: 0.4s;
+    margin: 10px 0 0 0;
+    transition: 0.8s;
+
 }
 
     .button:hover {
-        color: #777;
+        border: solid 3px orange;
+        color: orange;
 /*        background-color: rgb(52, 88, 153);*/
     }
 
@@ -125,13 +151,19 @@ SECTION-1: ARTICLE
 ******************************************************************/
 
 #article {
-    margin: 330px 0 0 0;
+/*    margin-bottom: 30px;*/
 }
 
 .icon {
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
     padding: 5px;
+    max-height: 100%;
+    max-width: 100%;
+/*
+    min-height: 100%;
+    min-width: 100%;
+*/
 }
 
 #homepage-wrapper-bottom {
@@ -149,6 +181,9 @@ SECTION-1: ARTICLE
     padding-top: 15px;
     border-radius: 4px;
     border: solid 1px #E4E4E4;
+    margin-bottom: 30px;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 #homepage-wrapper-bottom h4 {
