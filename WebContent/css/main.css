@@ -116,7 +116,7 @@ SECTION-1: BANNER
 }
 
 #banner-about-us {
-    background-image: url(../img/photos/banner-background.jpg);
+    background-image: url(../img/photos/banner-background%20.png);
 /*    background-color: #000;*/
     background-position:bottom;
     background-repeat: no-repeat;
@@ -266,7 +266,7 @@ SECTION-2: ARTICLE-EVENTS
     width: 500px;
     height: 300px;
     margin: 10px 10px 20px;
-    background-image: url(../img/photos/paramore-cover.jpg);
+    background-image: url(../img/photos/Paramore.png);
     background-size:cover;
     background-position: center center;
     background-repeat: no-repeat;
