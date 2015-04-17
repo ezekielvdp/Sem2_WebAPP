@@ -115,6 +115,18 @@ SECTION-1: BANNER
     margin-bottom: 30px;
 }
 
+#banner-about-us {
+    background-image: url(../img/photos/banner-background.jpg);
+/*    background-color: #000;*/
+    background-position:bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 220px;
+    text-align: left;
+    margin-bottom: 30px;
+    background-size: auto;
+}
+
 .middle-baby {
     font-size: 3.5em;
     font-weight: normal;
@@ -122,6 +134,17 @@ SECTION-1: BANNER
     margin: 155px 0 0;
     font-family: Hind, sans-serif;
     font-weight: 300;
+}
+
+.banner-middletext {
+    font-size: 3.6em;
+    font-weight: normal;
+    color: white;
+    margin: 85px 20px 0;
+    font-family: Hind, sans-serif;
+    padding: 0;
+    font-weight: 700;
+    text-align: center;
 }
 
 .button {
@@ -150,7 +173,7 @@ SECTION-1: BANNER
 SECTION-1: ARTICLE
 ******************************************************************/
 
-#article {
+#article-home {
 /*    margin-bottom: 30px;*/
 }
 
@@ -189,4 +212,71 @@ SECTION-1: ARTICLE
 #homepage-wrapper-bottom h4 {
     margin-top: 0px;
     padding: 10px;
+}
+
+#article-about-us {
+    padding: 10px;
+}
+
+#article-about-us li {
+    margin: 10px 2.5% 2.5%;
+    padding: 30px 10px 3px 30px;
+    border: solid 2px #E4E4E4;
+    background-color: white;
+    border-radius: 20px
+}
+
+#article-about-us p {
+    text-align: left;
+}
+
+.about-description {
+    margin: auto;
+    margin-top: -125px;
+    width: 800px;
+    height: 100px;
+    text-align: center;
+}
+
+.about-name {
+    font-weight: 700;
+}
+
+.profile-pic {
+    width: auto;
+    height: auto;
+    border: solid 2px crimson;
+    color:;
+    border-radius: 100%;
+}
+
+/******************************************************************
+SECTION-2: ARTICLE-EVENTS
+******************************************************************/
+
+#main-event-holder {
+    background-color: white;
+    width: 525px;
+    margin: -20px 0 0 7.5%;
+    padding: 0 0 20px;
+    border: solid 2px #E4E4E4;
+}
+
+#main-event-cover {
+    width: 500px;
+    height: 300px;
+    margin: 10px 10px 20px;
+    background-image: url(../img/photos/paramore-cover.jpg);
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.event-title {
+    text-align: right;
+    width: auto;
+    font-weight: 700;
+    margin: 0 15px 10px 0;
+    font-size: auto;
 }
