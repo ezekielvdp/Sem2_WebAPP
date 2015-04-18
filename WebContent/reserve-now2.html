@@ -29,13 +29,39 @@
         <section class ="registration">
                 <ul>
                         <li id = "registration-choose" class="special-list">
-                                <h3 style="margin-left: 10px;">CUSTOMER DETAILS</h3>
-                                <p style="margin-left: 10px;">NAME: <input type="text"></p>
-                                <p style="margin-left: 10px;">ADDRESS: <input type ="text"></p>
-                                <p style="margin-left: 10px;">E-MAIL: <input type ="text"></p>
-                                <p style="margin-left: 10px;">CONTACT NUMBER: <input type ="text"></p>
-                                <button type="submit" id = "cancel-button">CANCEL</button>
-                                <button type="submit" id = "next-button">NEXT</button>
+                            <h4 style ="margin: 5% 0 0 10%">CUSTOMER DETAILS</h4>
+                            <form method="get" action="">
+                            <table>
+                                <tr>
+                                    <td style="colspan: 2px;"></td>
+                                </tr>
+                                <tr>
+                                    <td>NAME:</td>
+                                    <td colspan="3"><input type ="text" id = "input-name" class = "long-textbox"></td>
+                                </tr>
+                                <tr>
+                                    <td>ADDRESS:</td>
+                                    <td><input type ="text" id = "input-address"></td>
+                                    <td>ZIP CODE:</td>
+                                    <td><input type ="text" id = "input-zip"></td>
+                                </tr>
+                                <tr>
+                                    <td>E-MAIL ADDRESS:</td>
+                                    <td colspan="3"><input type ="text" id = "input-email" class="long-textbox"></td>
+                                </tr>
+                                <tr>
+                                    <td>CONTACT NUMBER:</td>
+                                    <td colspan="3"><input type ="text" id = "input-contact" class="long-textbox"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="4">
+                                        <input type = "button" id = "submit" value = "submit">
+                                        <input type="button" id = "cancel" value="cancel">
+                                    </td>
+                                </tr>
+                            </table>
+
+                            </form>
                         </li>
                         <li id = "ticket-details" class="special-list">
                             <ul>
@@ -43,11 +69,12 @@
                                         <p>put some seat here..</p>
                                     </li>
                                     <li id ="ticket-division-2">
-                                        <p><h3>TOTAL</h3></p>
+                                        <h3><p>TOTAL:</p></h3>
                                     </li>
                             </ul>
+                        </li>
+                </ul>
         </section>
-
 </body>
 </html>
 

@@ -248,6 +248,12 @@ SECTION-1: ARTICLE
     margin: 2% 5.0% 2%;
 
 }
+
+table, tr, td {
+    padding: 0;
+    margin: 0;
+    width: 100px;
+}
 /******************************************************************
 SECTION-2: ARTICLE-EVENTS
 ******************************************************************/
@@ -344,6 +350,20 @@ SECTION-3: TICKET-DETAILS
     margin: 0;
 }
 
+#cancel {
+    float: right;
+    margin: 0 2.5% 0
+}
+
+#submit {
+    float: right;
+    margin: 0;
+}
+
+#register-detail {
+    margin: 0 0 0 10px;
+}
+
 .special-list {
     border-radius: 5px;
     display: inline-block;
@@ -367,4 +387,21 @@ SECTIONS with Profile and Paragraphs
     height: 100%;
     width: 90%;
     float:left;
+}
+
+/******************************************************************
+SECTIONS TABLES
+******************************************************************/
+
+table {
+    margin: 0 10% 0 ;
+    width: 80%;
+}
+
+td {
+    padding: 10px;
+}
+
+.long-textbox {
+    width: 100%;
 }
