@@ -15,10 +15,19 @@ import com.itextpdf.text.DocumentException;
 import com.itextpdf.text.Paragraph;
 import com.itextpdf.text.pdf.PdfWriter;
 
+/**
+ * Servlet implementation class RegisterGeneratePDF
+ */
 @WebServlet("/RegisterGeneratePDF")
 public class RegisterGeneratePDF extends HttpServlet {
 	private static final long serialVersionUID = 1L;
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		
 		Document document = new Document();
 		
 		try {
@@ -36,4 +45,6 @@ public class RegisterGeneratePDF extends HttpServlet {
         }
 	}
 
-}
+	}
+
+
