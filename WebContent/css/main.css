@@ -258,7 +258,7 @@ SECTION-2: ARTICLE-EVENTS
 #article-event li {
     float: left;
     height: 300px;
-    margin: 0;
+    margin: 0 2px 0;
     padding: 0;
 }
 
@@ -317,21 +317,6 @@ SECTION-2: ARTICLE-EVENTS
     max-height: 100%;
 }
 
-#event-b {
-    background-image: url("/WebContent/img/photos/fob-cover.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-color: black;
-}
-
-#event-c {
-    background-image: url("/WebContent/img/photos/olivia-cover.jpg");
-    background: center center;
-    background-repeat: no-repeat;
-    background-size:contain;
-
-}
 
 /******************************************************************
 SECTION-3: TICKET-DETAILS
