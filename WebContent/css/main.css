@@ -185,10 +185,6 @@ SECTION-1: ARTICLE
     padding: 5px;
     max-height: 100%;
     max-width: 100%;
-/*
-    min-height: 100%;
-    min-width: 100%;
-*/
 }
 
 #homepage-wrapper-bottom {
@@ -217,41 +213,41 @@ SECTION-1: ARTICLE
 }
 
 #article-about-us {
-    padding: 10px;
+    margin: 0;
 }
 
-#article-about-us li {
-    margin: 10px 2.5% 2.5%;
-    padding: 30px 10px 3px 30px;
-    border: solid 2px #E4E4E4;
-    background-color: white;
-    border-radius: 20px
-}
-
-#article-about-us p {
-    text-align: left;
-}
-
-.about-description {
-    margin: auto;
-    margin-top: -125px;
-    width: 800px;
-    height: 100px;
+.profile {
+    width: 150px;
+    padding: 0;
     text-align: center;
+    margin: 0;
+    font-weight: 700;
+    float: left;
 }
 
-.about-name {
-    font-weight: 700;
-}
 
 .profile-pic {
-    width: auto;
-    height: auto;
     border: solid 2px crimson;
-    color:;
     border-radius: 100%;
 }
 
+.profile-ul li{
+    display: inline-block;
+    float:left;
+
+    margin: 0;
+    max-width: 100%;
+}
+.comment {
+    width: 85%;
+}
+
+.profile-ul li p{
+    text-align:justify;
+    padding: 0 10px 0;
+    margin: 2% 5.0% 2%;
+
+}
 /******************************************************************
 SECTION-2: ARTICLE-EVENTS
 ******************************************************************/
@@ -259,64 +255,82 @@ SECTION-2: ARTICLE-EVENTS
     padding: 30px 0 10px 0;
 }
 
-#main-event-holder {
-    background-color: white;
-    width: 525px;
-    height: 100%;
-    margin: -40px 0 10px 10%;
-    padding: 0 0 20px;
-    border: solid 2px #E4E4E4;
-
+#article-event li {
+    float: left;
+    height: 300px;
+    margin: 0;
+    padding: 0;
 }
 
-#main-event-cover {
-    width: 500px;
+#main-event-holder {
+    background-color: white;
+/*
+    width: 300px;
     height: 300px;
-    margin: 10px 10px 20px;
-    background-image: url(../img/photos/Paramore.png);
-    background-size:cover;
+*/
+    width: 30%;
+    margin: 0;
+    padding: 10px 10px 20px;
+    border: solid 2px #E4E4E4;
+}
+
+.event-details {
+    font-weight: normal;
+    font-size: 0.789em;
+    padding: 0;
+    text-align: left;
+}
+
+.event-button {
+    float:right;
+    clear: both;
+    font-size: 10px;
+    padding: 5px;
+    margin: 20px 0 0px;
+    background-color: transparent;
+    color: black;
+    border: solid 2px #000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 700;
+}
+
+    .event-button:hover {
+        color: orange;
+        border-color: orange;
+    }
+
+.event-title-main {
+    float: right;
+    font-weight: normal;
+    width: auto;
+    margin: 5% 0 0 10px;
+    font-size: 0.8em;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.event-image {
+    width: 100%;
+    height: 70%;
+    max-height: 100%;
+}
+
+#event-b {
+    background-image: url("/WebContent/img/photos/fob-cover.jpg");
     background-position: center center;
     background-repeat: no-repeat;
+    background-size:contain;
     background-color: black;
 }
 
-#article-event li {
-    float: left;
-    width: 45%;
-    margin: 0 1.25% 0 1.25%;
-}
+#event-c {
+    background-image: url("/WebContent/img/photos/olivia-cover.jpg");
+    background: center center;
+    background-repeat: no-repeat;
+    background-size:contain;
 
-.event-title {
-    text-align: right;
-    width: auto;
-    font-weight: 700;
-    margin: 0 15px 10px 0;
-    font-size: auto;
-}
-
-#events-holder {
-    width: 550px;
-    height: 383px;
-/*    height: 383px;*/
-    margin: -7.10% 10% 10px 20px;
-    clear: both;
-}
-
-#event-1 {
-    width: 200px;
-    height: 180px;
-    margin: 0 0 2.5%;
-/*    float: right;*/
-    background-color: white;
-    border: solid 2px #E4E4E4;
-}
-
-#event-2 {
-    width: 200px;
-    height: 180px;
-    margin: 2.5% 0 0;
-    background-color: white;
-    border: solid 2px #E4E4E4;
 }
 
 /******************************************************************
@@ -327,7 +341,6 @@ SECTION-3: TICKET-DETAILS
     max-height: 100%;
     height: 393px;
     width: 60%;
-    float: left;
     margin: 0;
 }
 
@@ -353,4 +366,20 @@ SECTION-3: TICKET-DETAILS
     background-color:white;
     margin: 0 2.5% 0 2.5%;
     border: solid 2px #E4E4E4;
+}
+
+/******************************************************************
+SECTIONS with Profile and Paragraphs
+******************************************************************/
+
+.special-list-down {
+    border-radius: 5px;
+    float: left;
+    background-color: white;
+    margin: 0 2.5% 15px 2.5%;
+    padding: 10px;
+    border: solid 2px #E4E4E4;
+    height: 100%;
+    width: 90%;
+    float:left;
 }
