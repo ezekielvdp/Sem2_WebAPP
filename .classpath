@@ -9,6 +9,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Theodore Arnel Merin/git/Sem2_WebAPP/lib/itextpdf-5.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/itextpdf-5.5.1.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
