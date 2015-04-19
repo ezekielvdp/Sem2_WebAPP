@@ -402,6 +402,17 @@ td {
     padding: 10px;
 }
 
+.short-textbox {
+    padding: 5px;
+    border: solid 1px #aaa;
+    border-radius: 5px;
+    margin: 0;
+}
+
 .long-textbox {
     width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 1px #aaa;
+    margin: 0;
 }
