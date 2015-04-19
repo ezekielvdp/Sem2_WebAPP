@@ -416,3 +416,20 @@ td {
     border: solid 1px #aaa;
     margin: 0;
 }
+
+#seat-plan {
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+    width: 300px;
+    height: 400px;
+    margin: -60px 0 0 25%;
+    padding: 0;
+    float: left;
+}
+
+.special-button {
+    clear: both;
+    margin-left: 100px;
+
+}
